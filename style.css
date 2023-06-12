@@ -1,5 +1,5 @@
 body{
-	background: black;
+	background: #ccc;
 	margin: 0px;
 }
 .menu{
@@ -17,7 +17,7 @@ body{
 	justify-content: space-evenly;
 }
 .menu-li{
-	color: white;
+	color: black;
 	line-height: 1em;
 	font-size: 15px;
 	text-decoration: none;
@@ -35,24 +35,15 @@ body{
 	background: #fff;
 	border: 1px solid black;
 	padding: 13px;
-	width: 98%;
-	margin: 10px 0 10px;
+	width: 100%;
+	margin: 10px 0px 10px;
 }
 .div-night{
 	background: #fff;
 	border: 1px solid black;
 	padding: 13px;
-	width: 98%;
-	margin: 10px 0 10px;
-}
-.div-sx-zx{
-	background: #fff;
-	border: 1px solid black;
-	padding: 13px;
-	width: 98%;
-	margin: 10px 0 10px;
-	display: flex;
-	justify-content: center;
+	width: 100%;
+	margin: 10px 0px 10px;
 }
 .div1{
 	display: flex;
@@ -101,4 +92,20 @@ a, abbr, acronym, address, applet, article, aside, audio, big, blockquote, body,
 .NEB{
 	font-size: 35px;
 	color:crimson;
+}
+.div5{
+	display: flex;
+	justify-content: center;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+.font-size100{
+	font-size: 30px;
+}
+.div6{
+	display: flex;
+	justify-content: center;
+	justify-items: center;
 }
