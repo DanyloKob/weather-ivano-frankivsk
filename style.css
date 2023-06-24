@@ -1,0 +1,102 @@
+h1 {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  
+  #forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .forecast-item {
+    flex: 0 0 auto;
+    width: 300px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transform: scale(1.5);
+  }
+    .forecast-item {
+      flex: 0 0 auto;
+      margin-right: 20px;
+      transform: none;
+    }
+  }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Стилі для прогнозу погоди */
+  #forecast {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .forecast-item {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .forecast-item p {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  .forecast-item img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  /* Стилі для фону та кнопки оновлення */
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    opacity: 0.8;
+    z-index: -1;
+  }
+  
+  .refresh-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #337ab7;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .refresh-button:hover {
+    background-color: #23527c;
+  }
